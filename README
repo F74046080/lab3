@@ -1,0 +1,13 @@
+I used g++ to compile this program.
+
+sort(): 0 seconds
+insertion_sort(): 0.01 seconds
+sort(): 0 seconds
+insertion_sort(): 1.31 seconds
+sort(): 0.05 seconds
+insertion_sort(): 128 seconds
+sort(): 0.53 seconds
+insertion_sort(): 12817 seconds
+
+If the vector of sorted numbers is bigger, the result of the time of sort is obviously different between n^2 and n*log(n).
+The result of n^2 and n*log(n) should differ n/logn. In my program, the 1000000 random numbers in two sorts differ 24183 times. In principal, they should be differ 166666 times. I think that the  n^2 and n*log(n) are the wost results but the results are great disparity.
